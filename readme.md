@@ -15,10 +15,10 @@ Its name says, Managed Beans is a java bean managed by JSF framework that means 
 There are two style to create managed bean<br/>
 1. before 2.0 style way(faces-config.xml)
 2. 2.0 style(Annotation) : 
-	* @ManagedBean : register it is managed by JSF.
-		* name param : you can specify bean name . defauls value class name
+  1.@ManagedBean : register it is managed by JSF.
+    * name param : you can specify bean name . defauls value class name
 		 @ManagedBean(name = "myindex")
-		* eager param : bean is created before any request come . defauls value false
+	* eager param : bean is created before any request come . defauls value false
 		 @ManagedBean(eager = true)
 
 Index.java
