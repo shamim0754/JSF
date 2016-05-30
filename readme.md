@@ -1,17 +1,18 @@
-#Technoloyg Used : 
+####Technoloyg Used : 
 	1.JSF(Java server face) 
 	2.Oracle
-#create java web app template/archetype <br/>
+####create java web app template/archetype <br/>
 <b>mvn archetype:generate -DarchetypeArtifactId=maven-archetype-webapp </b><br/>
 give project details : <br/>
 <b>groupId=com.deltagroupbd </b>
 <b>artifactId=ocms </b>
 <b>pacakgeId=com.deltagroupbd.ocms </b>
 
-ManagedBean :  Its name says, Managed Beans is a java bean managed by JSF framework that means it need not create object programatically.we just use it
+####ManagedBean :  
+Its name says, Managed Beans is a java bean managed by JSF framework that means it need not create object programatically.we just use it
 
 #How to create ManageBean : Index.java
-'''java
+```java
 package com.deltagroupbd.ocms.beans;
 
 import javax.faces.bean.RequestScoped;
@@ -28,10 +29,10 @@ public class Index {
       return "Welcome to delta group ocms";
    }
 }
-'''
+```
 Access managed bean info : index.html
 
-'''html
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -43,10 +44,10 @@ Access managed bean info : index.html
    #{index.getMessage()}
 </body>
 </html>
-'''
+```
 web.xml : 
 
-'''xml
+```xml
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xmlns="http://java.sun.com/xml/ns/javaee" 
    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
@@ -75,6 +76,6 @@ web.xml :
       <url-pattern>*.xhtml</url-pattern>
    </servlet-mapping>
 </web-app>
-'''
+```
 
 

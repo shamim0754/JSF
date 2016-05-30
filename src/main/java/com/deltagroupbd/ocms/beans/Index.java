@@ -7,7 +7,7 @@ import javax.faces.bean.ManagedBean;
 @RequestScoped
 public class Index {
    public Index() {
-      System.out.println("it is printed when server loading since eager = true");
+      System.out.println("it is printed before any request come since eager = true");
    }
 	
    public String getMessage() {
