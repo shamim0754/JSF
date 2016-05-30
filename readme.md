@@ -13,18 +13,16 @@ Its name says, Managed Beans is a java bean managed by JSF framework that means 
 
 ####How to create ManageBean : 
 There are two style to create managed bean<br/>
-1.
-2. 2.0 style(Annotation) : 
-  1.@ManagedBean : register it is managed by JSF.
+
+1.  before 2.0 style way(faces-config.xml)
+2.  2.0 style(Annotation)
+  1. @ManagedBean : register it is managed by JSF.
+  2. Improve formatting
     * name param : you can specify bean name . defauls value class name
 		 @ManagedBean(name = "myindex")
 	* eager param : bean is created before any request come . defauls value false
 		 @ManagedBean(eager = true)
-1. Make my changes
-  1. Fix bug
-  2. Improve formatting
-    * Make the headings bigger
-    
+
 Index.java
 ```java
 package com.deltagroupbd.ocms.beans;
