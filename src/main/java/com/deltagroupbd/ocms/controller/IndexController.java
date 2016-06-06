@@ -1,4 +1,4 @@
-package com.deltagroupbd.ocms.beans;
+package com.deltagroupbd.ocms.controller;
 
 import javax.faces.bean.RequestScoped;
 import javax.faces.bean.ManagedBean;

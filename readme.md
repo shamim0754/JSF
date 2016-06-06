@@ -90,4 +90,19 @@ web.xml :
 </web-app>
 ```
 
+JSF have powerfull tag library:
 
+> Html tag
+> Facelet tag
+> Core tag
+> Composite tag
+
+### Html tag
+Html tag rendered into html output.<br/>
+For these tags you need to use the following namespaces of URI in html node.
+```
+<html 
+   xmlns="http://www.w3.org/1999/xhtml" 
+   xmlns:h="http://java.sun.com/jsf/html" 
+>
+```

@@ -62,7 +62,7 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>2.6</version>
             <configuration>
-                <webappDirectory>E:New folder\java\soft\glassfish4\glassfish\domains\domain1\autodeploy/${project.artifactId}</webappDirectory>
+                <webappDirectory>E:\New folder\java\soft\glassfish-4.1.1\glassfish4\glassfish\domains\domain1\autodeploy\${project.artifactId}</webappDirectory>
                 <warSourceDirectory>src/main/webapp</warSourceDirectory>
                 <warName>${project.artifactId}</warName>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
